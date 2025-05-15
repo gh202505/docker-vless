@@ -11,9 +11,9 @@ RUN apk add --no-cache wget
 RUN wget -N https://gh-proxy.0944.loocao.pp.ua/https://raw.githubusercontent.com/yonggekkk/vless-nodejs/main/app.js
 
 # 设置环境变量
-ENV UUID=4aa5e00a-7772-4d1c-9078-416c806f21e0
+ENV UUID=UUID
 ENV PORT=5911
-ENV DOMAIN=plonjuvfrodt.ap-northeast-1.clawcloudrun.com
+ENV DOMAIN=域名
 
 # 暴露端口
 EXPOSE 5911
