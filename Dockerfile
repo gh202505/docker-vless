@@ -8,7 +8,7 @@ WORKDIR /app
 RUN apk add --no-cache wget
 
 # 下载 app.js 文件
-RUN wget -N https://gh-proxy.0944.loocao.pp.ua/https://raw.githubusercontent.com/yonggekkk/vless-nodejs/main/app.js
+RUN wget -N https://cdn.jsdelivr.net/gh/yonggekkk/vless-nodejs@main/app.js
 
 # 设置环境变量
 ENV UUID=UUID
